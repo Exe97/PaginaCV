@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('fondo.avif');
+    color: #ffffff00;
+    background-size: 100% 100%;
+}
+
+header {
+    background: rgb(204, 171, 189);
+    background: linear-gradient(90deg, rgba(204, 171, 189, 1) 0%, rgba(89, 46, 82, 1) 100%);
+
+    padding: 5px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Yellowtail";
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* SECCION INICIO */
+.inicio {
+    color: rgb(11, 8, 48);
+    animation: fadein 1s;
+}
+
+.inicio .contenido-seccion {
+    margin: auto;
+    text-align: left;
+    padding: 25px 25px;
+}
+
+/* SECCION SOBRE MI */
+.sobremi {
+    background: rgb(204, 171, 189);
+    background: linear-gradient(90deg, rgba(204, 171, 189, 1) 0%, rgba(89, 46, 82, 1) 100%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.titulo-seccion {
+    font-family: "Yellowtail";
+    font-size: 1.5rem;
+    text-align: center;
+}
